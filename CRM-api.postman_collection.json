@@ -1,0 +1,1468 @@
+{
+	"info": {
+		"_postman_id": "b8c81ac5-92f4-4864-98be-812db9a9f859",
+		"name": "CRM-api",
+		"description": "API system for a small Customer Relationship Management (CRM)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View Customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/customer/view",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"view"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "view Customer (success)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/customer",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"customer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2019 12:12:15 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 24 Nov 2019 12:12:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6Iitmd3EzTDNzSzdZU21qRld2ZjZCbUE9PSIsInZhbHVlIjoiVzhCQkxJMUs4eFRCTDJYRFByYnV5WVpubWsyNjJvNGtkOVVWK2ZjTlVZS1wvZXR1SGhEXC8yVlNLM0VUK0I1RVlkIiwibWFjIjoiZTY5YzUxMDBlMjExOWFiZjQwNDdlMDBkMWQzOTIwZjQ5NjY4MzQ5YjlkODllNGVkMjMyMTIyOTQyNmRlMTQ3NiJ9; expires=Sun, 24-Nov-2019 14:12:15 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IlVDbmo5SnYwT2Y1MTNXK0lsWGFUZGc9PSIsInZhbHVlIjoiY1J6R0FjcTFKd1wvcFdvVVwvMnR3bzV1YU03MU1xM2xzcCtIdnloQnNmSTF0eld4amMwWnp0SldpKzZ0V0JON3JcLyIsIm1hYyI6Ijc3NmI3ZWZlMDcxZGM5ZmI2MTczNWEyNjRiYjYxNmMxYTI0YzIyYjJmYmFlZTAyMzMyZTIyZjljZTQyN2ZhMGYifQ%3D%3D; expires=Sun, 24-Nov-2019 14:12:15 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"customers view\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"created_at\": null,\n            \"updated_at\": null,\n            \"name\": \"ahmed\",\n            \"type\": \"individual\",\n            \"phone\": \"0153261351615\",\n            \"email\": \"a@a.com\",\n            \"address\": \"llllllllllllllllllllll\",\n            \"website\": \"a.com\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/customer/2/edit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"2",
+						"edit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Edit Customer",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/customer/2/edit",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"customer",
+								"2",
+								"edit"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:02:31 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:02:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"edit customer\",\n    \"data\": {\n        \"id\": 2,\n        \"created_at\": \"2019-11-24 20:08:58\",\n        \"updated_at\": \"2019-11-24 22:29:20\",\n        \"name\": \"Shaker\",\n        \"type\": \"individual\",\n        \"phone\": \"011654694654\",\n        \"email\": \"sh@sh.com\",\n        \"address\": \"cairo\",\n        \"website\": \"sh.com\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Khaled",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "individual",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "0158989963",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "kh@kh.com",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "cairo",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "kh.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/customer/add?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"add"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Mohamed",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "individual",
+							"disabled": true
+						},
+						{
+							"key": "phone",
+							"value": "0132165168",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "m@m.com",
+							"disabled": true
+						},
+						{
+							"key": "address",
+							"value": "cairo",
+							"disabled": true
+						},
+						{
+							"key": "website",
+							"value": "m.com",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Customer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Future company",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "corporate",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "0158989963",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "future @future .com",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "Cairo",
+									"type": "text"
+								},
+								{
+									"key": "website",
+									"value": "future.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/customer/add?",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"customer",
+								"add"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Mohamed",
+									"disabled": true
+								},
+								{
+									"key": "type",
+									"value": "individual",
+									"disabled": true
+								},
+								{
+									"key": "phone",
+									"value": "0132165168",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "m@m.com",
+									"disabled": true
+								},
+								{
+									"key": "address",
+									"value": "cairo",
+									"disabled": true
+								},
+								{
+									"key": "website",
+									"value": "m.com",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:05:34 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:05:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"customer successfully added\",\n    \"data\": {\n        \"name\": \"Future company\",\n        \"type\": \"corporate\",\n        \"phone\": \"0158989963\",\n        \"email\": \"future @future .com\",\n        \"address\": \"Cairo\",\n        \"website\": \"future.com\",\n        \"updated_at\": \"2019-11-25 01:05:34\",\n        \"created_at\": \"2019-11-25 01:05:34\",\n        \"id\": 5\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/customer/3/delete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"3",
+						"delete"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Customer",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/customer/4/delete",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"customer",
+								"4",
+								"delete"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:09:53 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:09:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"customer deleted\",\n    \"data\": {\n        \"id\": 4,\n        \"created_at\": \"2019-11-25 01:04:18\",\n        \"updated_at\": \"2019-11-25 01:04:18\",\n        \"name\": \"Hassan\",\n        \"type\": \"individual\",\n        \"phone\": \"0158989963\",\n        \"email\": \"h@h.com\",\n        \"address\": \"Aswan\",\n        \"website\": \"h.com\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Shaker",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "individual",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "011654694654",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "sh@sh.com",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "cairo",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "sh.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/customer/2/update?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"2",
+						"update"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Mohamed",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "individual",
+							"disabled": true
+						},
+						{
+							"key": "phone",
+							"value": "0132165168",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "m@m.com",
+							"disabled": true
+						},
+						{
+							"key": "address",
+							"value": "cairo",
+							"disabled": true
+						},
+						{
+							"key": "website",
+							"value": "m.com",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Customer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Shaker",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "individual",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "011654694654",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "sha@shaker.com",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "cairo - Elnozha",
+									"type": "text"
+								},
+								{
+									"key": "website",
+									"value": "shaker.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/customer/2/update?",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"customer",
+								"2",
+								"update"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Mohamed",
+									"disabled": true
+								},
+								{
+									"key": "type",
+									"value": "individual",
+									"disabled": true
+								},
+								{
+									"key": "phone",
+									"value": "0132165168",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "m@m.com",
+									"disabled": true
+								},
+								{
+									"key": "address",
+									"value": "cairo",
+									"disabled": true
+								},
+								{
+									"key": "website",
+									"value": "m.com",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:07:17 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:07:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"customer successfully updated\",\n    \"data\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Action on Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "call",
+							"type": "text"
+						},
+						{
+							"key": "customer_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "fffffff",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2016-9-7",
+							"type": "text"
+						},
+						{
+							"key": "time",
+							"value": "9:29:00",
+							"type": "text"
+						},
+						{
+							"key": "next_action",
+							"value": "ddddddd",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/action/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"action",
+						"add"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "customer_id",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Action on Customer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "type",
+									"value": "call",
+									"type": "text"
+								},
+								{
+									"key": "customer_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "comment",
+									"value": "fffffff",
+									"type": "text"
+								},
+								{
+									"key": "date",
+									"value": "2014-3-7",
+									"type": "text"
+								},
+								{
+									"key": "time",
+									"value": "11:29:00",
+									"type": "text"
+								},
+								{
+									"key": "next_action",
+									"value": "sssssss",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/action/add",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"action",
+								"add"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "customer_id",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:08:45 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:08:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"action successfully added\",\n    \"data\": {\n        \"type\": \"call\",\n        \"customer_id\": \"2\",\n        \"comment\": \"fffffff\",\n        \"date\": \"2014-3-7\",\n        \"time\": \"11:29:00\",\n        \"next_action\": \"sssssss\",\n        \"updated_at\": \"2019-11-25 01:08:45\",\n        \"created_at\": \"2019-11-25 01:08:45\",\n        \"id\": 6\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "View Customer Actions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/action/2/view",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"action",
+						"2",
+						"view"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "View Customer Actions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/action/2/view",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"action",
+								"2",
+								"view"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:09:00 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:09:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"actions view\",\n    \"data\": [\n        {\n            \"id\": 2,\n            \"created_at\": \"2019-11-25 00:38:43\",\n            \"updated_at\": \"2019-11-25 00:49:34\",\n            \"type\": \"visit\",\n            \"customer_id\": 2,\n            \"comment\": \"ggggggg\",\n            \"date\": \"2019-02-21\",\n            \"time\": \"05:35:00\",\n            \"next_action\": \"qqqqqq\"\n        },\n        {\n            \"id\": 3,\n            \"created_at\": \"2019-11-25 00:41:22\",\n            \"updated_at\": \"2019-11-25 00:41:22\",\n            \"type\": \"call\",\n            \"customer_id\": 2,\n            \"comment\": \"kkkkkkk\",\n            \"date\": \"2019-02-21\",\n            \"time\": \"09:29:00\",\n            \"next_action\": \"mmmm\"\n        },\n        {\n            \"id\": 6,\n            \"created_at\": \"2019-11-25 01:08:45\",\n            \"updated_at\": \"2019-11-25 01:08:45\",\n            \"type\": \"call\",\n            \"customer_id\": 2,\n            \"comment\": \"fffffff\",\n            \"date\": \"2014-03-07\",\n            \"time\": \"11:29:00\",\n            \"next_action\": \"sssssss\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Action",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/action/2/edit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"action",
+						"2",
+						"edit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Edit Action",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/action/4/edit",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"action",
+								"4",
+								"edit"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:10:54 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:10:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"edit action\",\n    \"data\": {\n        \"id\": 4,\n        \"created_at\": \"2019-11-25 00:51:22\",\n        \"updated_at\": \"2019-11-25 00:51:22\",\n        \"type\": \"call\",\n        \"customer_id\": 1,\n        \"comment\": \"aaaaa\",\n        \"date\": \"2018-05-07\",\n        \"time\": \"09:29:00\",\n        \"next_action\": \"send email\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Customer Action",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "call",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "customer_id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "comment",
+							"value": "ggggggg",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2019-2-21",
+							"type": "text"
+						},
+						{
+							"key": "time",
+							"value": "5:35:00",
+							"type": "text"
+						},
+						{
+							"key": "next_action",
+							"value": "qqqqqq",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/action/2/update",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"action",
+						"2",
+						"update"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "customer_id",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Customer Action",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "type",
+									"value": "call",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "customer_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "comment",
+									"value": "bad",
+									"type": "text"
+								},
+								{
+									"key": "date",
+									"value": "2013-2-21",
+									"type": "text"
+								},
+								{
+									"key": "time",
+									"value": "7:35:00",
+									"type": "text"
+								},
+								{
+									"key": "next_action",
+									"value": "call again",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/action/6/update",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"action",
+								"6",
+								"update"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "customer_id",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:13:20 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:13:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"action successfully updated\",\n    \"data\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Customer Action",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/action/5/delete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"action",
+						"5",
+						"delete"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Customer Action",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/action/4/delete",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"action",
+								"4",
+								"delete"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:15:13 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 25 Nov 2019 01:15:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.1"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 1,\n    \"message\": \"action deleted\",\n    \"data\": {\n        \"id\": 4,\n        \"created_at\": \"2019-11-25 00:51:22\",\n        \"updated_at\": \"2019-11-25 00:51:22\",\n        \"type\": \"call\",\n        \"customer_id\": 1,\n        \"comment\": \"aaaaa\",\n        \"date\": \"2018-05-07\",\n        \"time\": \"09:29:00\",\n        \"next_action\": \"send email\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
